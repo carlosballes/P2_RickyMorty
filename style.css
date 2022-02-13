@@ -1,0 +1,84 @@
+#general{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px;
+    background: no-repeat 0px 5px;
+    background-size: 24px;
+    outline: none;
+    justify-content: center;
+}
+#Lista_de_Personajes{
+display: flex;
+border:2px solid black;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-end;
+background-color: rgb(59, 59, 59);
+width: 100%;
+height: 100%;
+justify-content: space-between;
+
+}
+.imagen{
+    display: flex;
+    height: 85%;
+    width: 30%;
+    justify-content: center;
+    border-top-left-radius:10%;
+}
+.personaje{
+    display: flex;
+    flex-direction: row;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    
+    
+    
+}
+.atrib{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(83, 87, 93);
+    border-radius: 10%;
+    justify-content: space-around;
+    padding: 5%;
+    flex-wrap: wrap;
+
+}
+.nombre{
+color: white;
+}
+.status{
+    color: white;   
+}
+.specie{
+    color: white;
+}
+.Location{
+    color: white;
+}
+.Episodio{
+    color: white;
+}
+#buscador{
+    width: 20%;
+}
+#p{
+width: 10%;
+}
+#f{
+    width: 10%; 
+}
+#b{
+    width: 10%;
+}
